@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.editor-container {
+    width: 80%;
+    max-width: 800px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.toolbar {
+    display: flex;
+    background: #333;
+    padding: 10px;
+    border-bottom: 1px solid #444;
+}
+
+.toolbar button {
+    background: #444;
+    border: none;
+    margin-right: 5px;
+    padding: 10px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.toolbar button:hover {
+    background: #555;
+}
+
+.toolbar button i {
+    font-size: 16px;
+}
+
+.toolbar input[type="color"] {
+    margin-left: auto;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.editor {
+    padding: 20px;
+    min-height: 300px;
+    overflow-y: auto;
+    line-height: 1.6;
+    font-size: 16px;
+}
